@@ -7,7 +7,7 @@
 body {
   margin: 20px;
   border-radius: 5px;
-  font-family: nunito;
+  /* font-family: nunito; */
 }
 .container {
   margin: auto;
@@ -21,17 +21,6 @@ body {
 .navigation {
   display: none;
 }
-/* button[type="submit"] {
-  width: 100%;
-  height: 40px;
-  background-color: rebeccapurple;
-  border: none;
-  border-radius: 5px;
-  font-size: 15px;
-  text-transform: capitalize;
-  font-weight: bold;
-  color: white;
-} */
 
 /* styling the hero section */
 .showcase {
