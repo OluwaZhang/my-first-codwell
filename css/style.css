@@ -1,0 +1,164 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* general settings */
+body {
+  margin: 20px;
+  border-radius: 5px;
+  font-family: nunito;
+}
+.container {
+  margin: auto;
+  padding: 30px;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  background-color: aliceblue;
+}
+.art,
+.navigation {
+  display: none;
+}
+/* button[type="submit"] {
+  width: 100%;
+  height: 40px;
+  background-color: rebeccapurple;
+  border: none;
+  border-radius: 5px;
+  font-size: 15px;
+  text-transform: capitalize;
+  font-weight: bold;
+  color: white;
+} */
+
+/* styling the hero section */
+.showcase {
+  display: grid;
+  place-content: center;
+}
+
+.learn {
+  background-color: rebeccapurple;
+  border-radius: 50px;
+  width: 90%;
+  height: 40px;
+  padding: 0.2em 1em;
+  font-size: 18px;
+  color: white;
+  margin-bottom: 10px;
+  margin-top: -20px;
+}
+
+h1 {
+  font-size: 40px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+.showcase p {
+  font-size: 18px;
+  line-height: 28px;
+  padding-bottom: 25px;
+}
+
+/* the form */
+input[type="email"] {
+  width: 100%;
+  height: 47px;
+  border: none;
+  border-radius: 5px;
+  font-size: 15px;
+  margin-bottom: 15px;
+  border: 1px solid rgb(209, 209, 209);
+}
+
+button[type="submit"] {
+  width: 100%;
+  height: 47px;
+  background-color: rebeccapurple;
+  border: none;
+  border-radius: 5px;
+  font-size: 15px;
+  text-transform: capitalize;
+  font-weight: bold;
+  color: white;
+}
+
+/* footer */
+#companies {
+  display: grid;
+}
+
+#companies p {
+  display: flex;
+  margin-bottom: 5px;
+}
+#companies ul {
+  margin-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  gap: 7px;
+}
+
+/* tablet view */
+@media screen and (min-width: 600px) {
+  .showcase {
+    display: grid;
+    place-content: center;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  /* h1 {
+    line-height: 50px;
+    display: flex;
+    flex-wrap: wrap;
+  } */
+  .learn {
+    height: 10px;
+  }
+  form {
+    display: flex;
+    gap: 10px;
+  }
+  button[type="submit"] {
+    width: 150px;
+  }
+}
+/* laptop view */
+@media screen and (min-width: 850px) {
+  .container {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+  .menu {
+    display: none;
+  }
+  .navigation {
+    display: block;
+    padding-right: 60px;
+  }
+  .navigation ul {
+    display: flex;
+    gap: 15px;
+    text-transform: capitalize;
+    list-style: none;
+  }
+  .navigation li a {
+    text-decoration: none;
+  }
+  .navigation button {
+    margin-top: -20px;
+  }
+
+  .art {
+    display: block;
+  }
+
+  .art img {
+    width: 300px;
+    height: auto;
+  }
+}
