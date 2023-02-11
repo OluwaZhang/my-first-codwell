@@ -8,6 +8,7 @@ body {
   margin: 20px;
   border-radius: 5px;
   /* font-family: nunito; */
+  font-family: "Nunito Sans", sans-serif;
 }
 .container {
   margin: auto;
@@ -149,5 +150,8 @@ button[type="submit"] {
   .art img {
     width: 300px;
     height: auto;
+  }
+  .showcase {
+    text-align: left;
   }
 }
