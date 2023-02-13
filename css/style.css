@@ -125,6 +125,9 @@ button[type="submit"] {
 }
 /* laptop view */
 @media screen and (min-width: 850px) {
+  body {
+    overflow: hidden;
+  }
   .container {
     padding-left: 100px;
     padding-right: 100px;
@@ -159,5 +162,8 @@ button[type="submit"] {
   }
   .showcase {
     text-align: left;
+  }
+  footer {
+    margin-top: -40px;
   }
 }
